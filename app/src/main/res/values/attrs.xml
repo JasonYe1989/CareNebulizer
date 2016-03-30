@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="NebulizerStatisticView">
+        <attr name="legendTextSize" format="dimension" />
+        <attr name="dateTextSize" format="dimension" />
+        <attr name="currentDateTextSize" format="dimension" />
+        <attr name="dateBarHeight" format="dimension" />
+        <attr name="dateTextOffset" format="dimension" />
+        <attr name="legendWidth" format="dimension" />
+        <attr name="legendHeight" format="dimension" />
+        <attr name="legendOffset" format="dimension" />
+
+        <attr name="backgroundColor" format="color" />
+        <attr name="dateBarColor" format="color" />
+        <attr name="dateTextColor" format="color" />
+        <attr name="currentDateTextColor" format="color" />
+        <attr name="legendTextColor" format="color" />
+        <attr name="durationPillarColor" format="color" />
+        <attr name="timesPillarColor" format="color" />
+
+    </declare-styleable>
+</resources>
